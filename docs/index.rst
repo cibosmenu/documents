@@ -8,14 +8,18 @@ Welcome!
 
   Let's start your journey with CIBOS software. 
 
-  Either your ready to setup or you want to see what's possible.
+  Either your ready to setup or you want to see what's possible. To start look at :ref:`Setup Introduction`
 
-  To start the setup :ref:`Setup Introduction`
+Overview of CIBOS
+----------------- 
 
   The Application is designed in a `Kanban Board <https://en.wikipedia.org/wiki/Kanban_board>`_ style.
 
   Every single view is designed with three column lists allowing you to easily manage and 
   understand the process. You can manage entire workflow and process by editing and moving items in a list from left to right.
+
+Analytics
+---------
 
   To grow your business you'll want daily insight into your business. Check out :ref:`Analytics Overview`
 

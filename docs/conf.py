@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'User'
-copyright = '2022, Cibos, Corp'
+copyright = '2022 Cibos,Corp'
 author = 'CIBOS'
 
 

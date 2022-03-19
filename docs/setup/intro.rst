@@ -4,6 +4,6 @@ Setup Introduction
 
 There are three *possible* steps to setting up:
 
-#. Enter in Setup Data Manually
+#. Enter in Data Manually
 #. Setup Quickbooks Online for accounting
-#. Upload data using Excel document
+#. Upload Past data using Excel sheet 
