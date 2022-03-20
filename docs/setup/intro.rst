@@ -1,6 +1,6 @@
-==================
-Setup Introduction
-==================
+============
+Introduction
+============
 
 There are three *possible* steps to setting up:
 

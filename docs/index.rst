@@ -8,7 +8,7 @@ Welcome!
 
   Let's start your journey with CIBOS software. 
 
-  Either your ready to setup or you want to see what's possible. To start look at :ref:`Setup Introduction`
+  Either your ready to setup or you want to see what's possible. To start look at :ref:`Introduction`
 
 Overview of CIBOS
 ----------------- 
@@ -39,7 +39,7 @@ Analytics
    :maxdepth: 2
    :numbered:
    :hidden:
-   :caption: Setup Steps
+   :caption: Setup
 
    setup/intro
    setup/crm
@@ -63,6 +63,39 @@ Analytics
    analytics/landedcost
    analytics/cogs
 
+.. _toc.orders
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Orders Workflow
+
+   orders/types
+   orders/ondemand
+   orders/aggsalesMO
+   orders/delayedMO
+
+.. _toc.workorders
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Work Orders (Mobile)
+
+   workorders/manufacturing
+   workorders/receiving
+   workorders/shipping
+
+.. _toc.planning
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Orders Planning
+
+   planning/sales
+   planning/manufacturing
+
 
 .. _toc.integrations
 
@@ -77,23 +110,11 @@ Analytics
    integrations/calendar
    integrations/quickbooksonline
 
-.. _toc.orders
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Orders Workflow
-
-   orders/types
-   orders/ondemand
-   orders/aggsalesMO
-   orders/delayedMO
 
 .. _toc.faq
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 2
-   :hidden:
-   :caption: FAQ
-
+ 
    help/faq
