@@ -8,11 +8,18 @@ Welcome!
 
   Let's start your journey with CIBOS software. 
 
-  Either your ready to setup or you want to see what's possible. To start look at :ref:`Introduction`
+  Either your ready to setup or you want to see what's possible. To start look at the setup :ref:`Introduction` or click around and search in the left navigation.
 
-Overview of CIBOS
------------------ 
+Why CIBOS?
+---------- 
 
+  There have been many iterations of software management tools for CPG, however most are
+
+     * overpriced
+     * not focused on CPG ready made food
+     * too generic
+     * too much effort to on-board and learn
+  
   The Application is designed in a `Kanban Board <https://en.wikipedia.org/wiki/Kanban_board>`_ style.
 
   Every single view is designed with three column lists allowing you to easily manage and 
@@ -53,7 +60,6 @@ Analytics
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    :hidden:
    :caption: Analytics
 
@@ -96,6 +102,15 @@ Analytics
    planning/sales
    planning/manufacturing
 
+.. _toc.collaboration
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Collaboration
+
+   colab/user
+   colab/mobile
 
 .. _toc.integrations
 
