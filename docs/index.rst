@@ -6,41 +6,37 @@
 Welcome!
 ========
 
-  Let's start your journey with CIBOS software. 
+  Let's start your journey with CIBOS software.
 
-  Either your ready to setup or you want to see what's possible. To start look at the setup :ref:`Introduction` or click around and search in the left navigation.
+ If your ready to start setup than go to the :ref:`Introduction`.
+
+ To see what's possible than click around in the left navigation or *Search...* field to find relevant information.
+
+ Or for a specific issue check out our :ref:`FAQ`.
 
 Why CIBOS?
 ---------- 
 
-  There have been many iterations of software management tools for CPG, however most are
+  There have been many iterations of software management tools for CPG, however most are:
 
-     * overpriced
-     * not focused on CPG ready made food
-     * too generic
-     * too much effort to on-board and learn
-  
-  The Application is designed in a `Kanban Board <https://en.wikipedia.org/wiki/Kanban_board>`_ style.
+     * price prohibitive and hurt the bottom line
+     * missing key features and not geared toward CPG Food & Beverage
+     * and generally hard to learn
 
-  Every single view is designed with three column lists allowing you to easily manage and 
-  understand the process. You can manage entire workflow and process by editing and moving items in a list from left to right.
 
-Analytics
----------
+ CIBOS strives to simplify management and focus on growth by adopting the `Kanban Board <https://en.wikipedia.org/wiki/Kanban_board>`_ philosophy where every UI & Workflow is designed in the same way. Each view has two to three lists allowing the user to manage an entire workflow and process the most intuitive way possible by editing and moving items from left to right and top to bottom.
 
-  To grow your business you'll want daily insight into your business. Check out :ref:`Analytics Overview`
+ Your company maybe using **Excel**, **Google Sheets**, or leaving it to an **Accountant** or **accounting software**. This approach takes up your time and money and puts you at a distance from your business.
 
-  Dive deep into orders workflow and understand how to get the most of managing your day to day.
+ To grow your business you'll want daily insight. Check out :ref:`Analytics Overview` to get started.
 
+ Dive deep into :ref:`Types of Workflows` and understand how to get the most out of managing your companies operations.
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents
 
 .. _toc.setup
-
-    Setup the application in the order of the views listed below this paragraph.
-    With in each view you want to go enter data from left to right columns.
 
 .. toctree::
    :maxdepth: 2
@@ -114,9 +110,6 @@ Analytics
 
 .. _toc.integrations
 
-  We currently have two available integrations. One is the calendar integrations with
-  Google Calendar, and the other is qith Quickbooks Online.
-
 .. toctree::
    :maxdepth: 2
    :hidden:
@@ -129,7 +122,7 @@ Analytics
 .. _toc.faq
 
 .. toctree::
-   :titlesonly:
+   :hidden:
    :maxdepth: 2
  
    help/faq

@@ -53,3 +53,6 @@ html_theme = 'insegel'
 html_static_path = ['_static']
 html_logo = '_static/logo_name_for_ipad.svg'
 html_favicon = '_static/favicon.ico'
+html_css_files = [
+    '_static/custom.css',
+]
