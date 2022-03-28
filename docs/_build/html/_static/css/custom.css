@@ -1,0 +1,12 @@
+ul.simple {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+li p {
+    margin-bottom: 0.25em;
+}
+
+span.std-ref.std {
+    border-bottom: 2px solid;
+}
