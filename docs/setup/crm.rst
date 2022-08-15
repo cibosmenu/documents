@@ -20,11 +20,13 @@ CRM types and associations are used through out the application to keep track of
 
 .. note::
 
-  Make sure to have the following setup under Vendors & Customers.
+  Make sure to set your company as Brand Owner:
 
-  * Your company as the Brand Owner. All orders will use this Information
-     * In the web application go under Settings -> Place of Business to complete and save.
+  1. Double click or click on edit icon of your company name under Vendors & Customers and change **Type** field to Brand Owner. 
+
+        * also from left navigation Settings -> Place of Business select your business name.
 
 
-  * At least one Customer, Supplier, and Vendor in Customer & Vendor Locations list.
-     * This can be set in the `Type` field under the add or edit form.
+  2. At least one Customer & Supplier type in **Customer & Vendor** list.
+
+        * This can also be set in the **Type** field under the add or edit form.

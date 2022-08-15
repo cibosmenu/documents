@@ -6,27 +6,27 @@
 Welcome!
 ========
 
-  Let's start your journey with CIBOS software.
+Let's start your journey with CIBOS software.
 
- If your ready to start setting up, go to the :ref:`Introduction`.
+Ready to set CIBOS up? go to the :ref:`Introduction`.
 
- To see what's possible click around in the left navigation or *Search...* field to find relevant information.
+To look at specific features click around in the left navigation or *Search...* field.
 
- Or for a specific issue check out our :ref:`FAQ`.
+For specific issue check out our :ref:`FAQ`.
 
 Why CIBOS?
 ---------- 
 
   Unlike other iterations of software management tools for CPG, CIBOS is:
 
-     * priced for growth
-     * built ground up for Food & Beverage
-     * designed for supreme Ease of Use
+     * priced to help scale your brand
+     * built for Food & Beverage
+     * designed for "daily" ease of use
 
 
- CIBOS strives to simplify management and focus on business growth by adopting the `Kanban Board <https://en.wikipedia.org/wiki/Kanban_board>`_ philosophy where every UI & Workflow is uniformly designed. Each view has two to three lists allowing the user to manage an entire workflow intuitively in every view by editing and moving items from left to right.
+ CIBOS strives to simplify management and focus on business growth by adopting the `Kanban Board <https://en.wikipedia.org/wiki/Kanban_board>`_ philosophy where every UI & Workflow is **uniformly** designed. Each view has two to three columned lists with drag and drop elements, allowing the user to manage an entire workflow intuitively in every view just by moving items from left to right.
 
- Your company maybe using **Excel**, **Google Sheets**, or leaving it to an **Accountant** or **accounting software**. This approach takes up your time and money and puts you at a distance from your business and is prone to error.
+ Your company maybe using **Excel**, **Google Sheets**, or leaving it to an **Accountant** or **accounting software**. This approach takes up your time and money and puts you at a distance from your business and is prone to error and lack of insight.
 
  To grow your business you'll want daily insight. Check out :ref:`Analytics Overview` to get started.
 
