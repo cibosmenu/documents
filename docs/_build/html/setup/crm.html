@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#2D2D2D" />
@@ -20,7 +20,9 @@
       <script type="text/javascript" src="../_static/documentation_options.js"></script>
       <script type="text/javascript" src="../_static/jquery.js"></script>
       <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
       <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/sphinx_highlight.js"></script>
   
 
   <script src="https://email.tl.fortawesome.com/c/eJxNjUEOgyAQAF8jR7Kw6wIHDh7sP1Cw2mgxgmn6-3JsMqc5zEQfE8dkxOY1KKMUOI3ACFKRJpSW2AAp7ontYIaxI6i7XPJVwyeVfCQ550Os3jLrGSNOLgbdAy6s0PBk2TFNjEbsfq31LB0OnX407pJa5v2faRadwSW63mn5KuLyR9j2tgx3zecanl-55R_-jjPs"></script> 
@@ -47,33 +49,133 @@
         <div id="main-content" role="main">
           
   <section id="crm">
-<h1><span class="section-number">2. </span>CRM<a class="headerlink" href="#crm" title="Permalink to this headline">¶</a></h1>
-<p>CRM is the easiest place to start entering in data.</p>
-<p>You can add Contacts, Store, and Customer &amp; Vendor Locations by clicking the add
-button <a class="reference internal" href="../_images/add.png"><img alt="Add Button" src="../_images/add.png" style="width: 18px;" /></a> at the top right of every list.</p>
-<p>Create associations between Contacts, Stores, and Vendors &amp; Customers by
-Dragging and Dropping each CRM type from a left column to a right column.</p>
-<p>CRM types and associations are used through out the application to keep track of company, location, and contacts as needed.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Make sure to have the following setup under Vendors &amp; Customers.</p>
-<ul class="simple">
-<li><dl class="simple">
-<dt>Your company as the Brand Owner. All orders will use this Information</dt><dd><ul>
-<li><p>In the web application go under Settings -&gt; Place of Business to complete and save.</p></li>
+<h1><span class="section-number">2. </span>CRM<a class="headerlink" href="#crm" title="Permalink to this heading">¶</a></h1>
+<p>CRM stands for Customer Relations Management. Cibos Menu’s CRM separates your company’s relationships into three categories: Contacts, Retailers, and Customers &amp; Suppliers.</p>
+<a class="reference internal image-reference" href="../_images/CRM.png"><img alt="../_images/CRM.png" src="../_images/CRM.png" style="width: 700px;" /></a>
+<section id="contacts">
+<h2><span class="section-number">2.1. </span>Contacts<a class="headerlink" href="#contacts" title="Permalink to this heading">¶</a></h2>
+<p>Contacts displays a list of your company’s Contacts with individuals. You can view their name, title or role, and telephone number at a glance. Use the Search function to narrow down a long list of Contacts and find a specific Contact. On the Contacts header, you can also quickly see how many Contacts are in your Contact list. For example, the Contacts list below has five entries:</p>
+<a class="reference internal image-reference" href="../_images/Contacts.png"><img alt="../_images/Contacts.png" src="../_images/Contacts.png" style="width: 500px;" /></a>
+<p><strong>How to Add a New Contact</strong></p>
+<ol class="arabic simple">
+<li><p>Click the Plus icon on the Contacts header to add a new Contact to your Contacts list.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../_images/createContact.png"><img alt="../_images/createContact.png" src="../_images/createContact.png" style="width: 300px;" /></a>
+<ol class="arabic" start="2">
+<li><p>A New Contact form will appear. You can enter the following information:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>First Name – required</p></li>
+<li><p>Last Name – required</p></li>
+<li><p>Title – eg. Supervisor or Purchasing</p></li>
+<li><p><strong>Email</strong> – required, eg. <a class="reference external" href="mailto:Supervisor&#37;&#52;&#48;wholefoods&#46;com">Supervisor<span>&#64;</span>wholefoods<span>&#46;</span>com</a></p></li>
+<li><p><strong>Work</strong> – required, work telephone number eg. 1-(800)-922-9248</p></li>
+<li><p><strong>Extension</strong> #</p></li>
+<li><p><strong>Mobile</strong> – mobile telephone number eg. 1-(800)-922-9248</p></li>
+<li><p><strong>Type</strong> – Choose from Consultant, Supplier, Retail Store Contact, Manufacturer, Distributor, Logistics, Broker, or Brand Owner</p></li>
+<li><p><strong>Note</strong> – Add a text note</p></li>
 </ul>
+<p>To save a contact, you must enter a First and Last Name, Email, and Work Telephone Number. For the most complete contact entry, fill in as much information as possible. You will be able to edit individual Contacts later.</p>
+</div></blockquote>
+</li>
+</ol>
+<p>How to Edit an Existing Contact</p>
+<blockquote>
+<div><p>1.To edit an existing Contact, hover over a name in the Contacts list.</p>
+<img alt="../_images/editContact.png" src="../_images/editContact.png" />
+<dl class="field-list simple">
+<dt class="field-odd">width<span class="colon">:</span></dt>
+<dd class="field-odd"><p>500</p>
 </dd>
 </dl>
-</li>
-<li><dl class="simple">
-<dt>At least one Customer, Supplier, and Vendor in Customer &amp; Vendor Locations list.</dt><dd><ul>
-<li><p>This can be set in the <cite>Type</cite> field under the add or edit form.</p></li>
-</ul>
+<ol class="arabic simple" start="2">
+<li><p>Click the Edit icon from the mini pop-up menu.</p></li>
+</ol>
+<img alt="../_images/editContactSecondForm.png" src="../_images/editContactSecondForm.png" />
+<dl class="field-list simple">
+<dt class="field-odd">width<span class="colon">:</span></dt>
+<dd class="field-odd"><p>700</p>
 </dd>
 </dl>
+<p>3.The Edit Contact form will appear. You can easily see all current contact information and make edits as necessary.</p>
+<p>4.Click Save when you are finished editing the contact.</p>
+</div></blockquote>
+<p>How To Show/Hide a Contact</p>
+<blockquote>
+<div><p>1.To Hide an existing contact, hover over a name in the contact list.</p>
+<img alt="../_images/hideContact.png" src="../_images/hideContact.png" />
+<ol class="arabic simple" start="2">
+<li><p>Click on the Hide/Show icon from the mini pop-up list to hide the contact. The contact will now be Grayed out in your Contacts list, Retailers       list,   and Customers &amp; Suppliers list. This is a great feature when you need to ‘Pause’ a relationship for the time being but want to keep the         contact in      your records. To have the contact appear as normal, just click the Hide/Show icon again.</p></li>
+</ol>
+<img alt="../_images/hideShow.png" src="../_images/hideShow.png" />
+</div></blockquote>
+<p>How To Delete a Contact</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>To Delete an existing contact, hover over a name in the contact list.</p></li>
+</ol>
+<img alt="../_images/deleteContact.png" src="../_images/deleteContact.png" />
+<ol class="arabic simple" start="2">
+<li><p>Click the Delete icon from the mini pop-up menu.</p></li>
+<li><p>You will then be asked, ‘Are you sure you want to completely remove this contact?’ Click OK to proceed.</p></li>
+</ol>
+</div></blockquote>
+</section>
+<section id="retailers">
+<h2><span class="section-number">2.2. </span>Retailers<a class="headerlink" href="#retailers" title="Permalink to this heading">¶</a></h2>
+<p>Retailers display a list of your company’s contacts with Retailers. You can view the Retailer’s name, city, state, store ID, and telephone number at a glance. Use the Search function to narrow down a long list of Retailers and find a specific Retailer. On the Retailers header, you can also quickly see how many Retailers are in your Retailer list. For example, the Retailer list below has three entries:</p>
+<blockquote>
+<div><img alt="../_images/Retailers.png" src="../_images/Retailers.png" />
+</div></blockquote>
+<dl>
+<dt><strong>How to Add a New Retailer</strong></dt><dd><ol class="arabic">
+<li><p>Click the Plus icon on the Contacts header to add a new contact to your Contacts list.</p>
+<blockquote>
+<div><img alt="../_images/addRetailer.png" src="../_images/addRetailer.png" />
+</div></blockquote>
 </li>
+<li><p>A New Retailer Record form will appear. You can enter the following information:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Name  required</p></li>
+<li><p>Store#</p></li>
+<li><p>Email</p></li>
+<li><p>Telephone</p></li>
+<li><p>Extension</p></li>
+<li><p>Address</p></li>
+<li><p>City</p></li>
+<li><p>State/ Province Abbrv. – required</p></li>
+<li><p>Zip – required</p></li>
+<li><p>URL</p></li>
+<li><p>Note</p></li>
 </ul>
-</div>
+<p>set “C:Python310Libsite-packagessphinx_autobuild”</p>
+</div></blockquote>
+</li>
+</ol>
+<p>To save a retailer record, you must enter a retailer name. Store ID, telephone number, address, city, state/province abbr., and zip. For the most complete retailer entry, fill in as much information as possible. You will be able to edit individual retailers later.</p>
+<blockquote>
+<div><img alt="../_images/newRetailer.png" src="../_images/newRetailer.png" />
+</div></blockquote>
+</dd>
+</dl>
+<ol class="arabic" start="5">
+<li><p>When you add a Note, it will appear directly below the main retailer form. The Note will have a date and timestamp as well as an Edit and Delete option.</p>
+<blockquote>
+<div><img alt="../_images/note.png" src="../_images/note.png" />
+</div></blockquote>
+<p>When you are done adding information to the New Retailer Record form, click Save.</p>
+</li>
+</ol>
+<p>How to Edit an Existing Retailer Record
+1. To edit an existing Retailer Record, follow the same workflow outlined for editing an existing contact.</p>
+<blockquote>
+<div><blockquote>
+<div><img alt="../_images/editRetailer.png" src="../_images/editRetailer.png" />
+</div></blockquote>
+<p>When you are done adding information to the New Retailer Record form, click Save. Test test test</p>
+</div></blockquote>
+</section>
 </section>
 
 
@@ -100,8 +202,12 @@ Dragging and Dropping each CRM type from a left column to a right column.</p>
     <p class="caption" role="heading"><span class="caption-text">Setup</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="intro.html">1. Introduction</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">2. CRM</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ingredients.html">3. Ingredients</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">2. CRM</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#contacts">2.1. Contacts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#retailers">2.2. Retailers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ingredients.html">3. Raw Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="batchrecipes.html">4. Batch Recipes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="menus.html">5. Menus</a></li>
 <li class="toctree-l1"><a class="reference internal" href="orders.html">6. Orders</a></li>
@@ -138,7 +244,10 @@ Dragging and Dropping each CRM type from a left column to a right column.</p>
 <p class="caption" role="heading"><span class="caption-text">Integrations</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../integrations/calendar.html">Google Calendar</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../integrations/quickbooksonline.html">Quickbooks Online</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../integrations/quickbooksonline.html">Quickbooks Online</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../integrations/quickbooksonline.html#understanding-cibos-qb-setup">Understanding CIBOS QB setup</a></li>
+</ul>
+</li>
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../help/faq.html">FAQ</a></li>
