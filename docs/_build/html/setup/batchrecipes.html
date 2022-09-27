@@ -50,14 +50,250 @@
           
   <section id="batch-recipes">
 <h1><span class="section-number">4. </span>Batch Recipes<a class="headerlink" href="#batch-recipes" title="Permalink to this heading">¶</a></h1>
-<p>Click the add button <a class="reference internal" href="../_images/add.png"><img alt="Add Button" src="../_images/add.png" style="width: 18px;" /></a> at the right of Batch Recipes column in <strong>Recipes</strong> view to add a manufactured item.</p>
-<p>CIBOS supports Batch Recipes that become CPG packaged products and components labeled as <strong>Recipe as Ingredient</strong></p>
-<p>Shopping List is the minimum units purchased inorder to manufactuer a batch of products or components.</p>
-<p>Batch Recipe add printable instructions, these are attached to orders and to work orders.</p>
-<p>Quality Assurance, setup any key metric indicators to be tracked during manufacturing.</p>
-<p>Nutrition Label, either using USDA database values or lab results enter in your values for safe keeping.</p>
-<p>Claims</p>
-<p>Lab Analysis</p>
+<p>Batch Recipes are built from Raw Materials. Batch Recipe records include Ingredients &amp; Costing, Instructions, Recipe Yield, Batch Weight, Quality Assurance, Shopping List, Nutrition Label, Claims, Recipe as Ingredient, Lab Analysis, and Expiration information.</p>
+<p>Use the Search function to narrow down a long list of Batch Recipes and find a specific Batch Recipe. On the Batch Recipes header, you can also quickly see how many Batch Recipes are on your list. For example, the Batch Recipes list below has three entries:</p>
+<img alt="../_images/batchRecipes.png" src="../_images/batchRecipes.png" />
+<p><em>How to Add a New Batch Recipe</em></p>
+<blockquote>
+<div><ol class="arabic">
+<li><p>Click the Plus icon on the Batch Recipes header to add a new Batch Recipe to your Batch Recipes list.</p>
+<blockquote>
+<div><img alt="../_images/addNewBatchRecipe.png" src="../_images/addNewBatchRecipe.png" />
+</div></blockquote>
+</li>
+<li><p>A New Item form will appear. Enter the Batch Recipe Name and a short Description. Then click Save.</p>
+<blockquote>
+<div><img alt="../_images/newBatchForm.png" src="../_images/newBatchForm.png" />
+</div></blockquote>
+</li>
+<li><p>The New Item form will disappear, and the New Item will now be listed under the Batch Recipes list.</p></li>
+</ol>
+</div></blockquote>
+<p><em>How to add Raw Materials to a Batch Recipe</em></p>
+<blockquote>
+<div><ol class="arabic">
+<li><p>A newly added Batch Recipe will have no Raw Materials added as ingredients. They must be added by dragging and dropping Raw Materials to the associated Batch                        Recipe.</p>
+<blockquote>
+<div><img alt="../_images/addRawMatsToBatchRecipe.png" src="../_images/addRawMatsToBatchRecipe.png" />
+</div></blockquote>
+</li>
+<li><p>When a Raw Material is added to a Batch Recipe, the Ingredients &amp; Cost, Shopping List, and Nutrition Label is automatically populated with information from the              Raw Material record.</p></li>
+</ol>
+</div></blockquote>
+<p><em>How to Edit an Existing Batch Recipe</em></p>
+<blockquote>
+<div><blockquote>
+<div><p>Once a Batch Recipe has been created, you will need to edit the Batch Recipe to add Instructions, Batch Weight (Recipe Yield), Quality Assurance, Claims, and Expiration. You will also be able to set Recipe as Ingredient and Add Lab Analysis at this point.</p>
+<ol class="arabic">
+<li><p>To edit an existing (or newly created) Batch Recipe, hover over the Batch Recipe of interest.</p>
+<blockquote>
+<div><img alt="../_images/editBatchRecipes.png" src="../_images/editBatchRecipes.png" />
+</div></blockquote>
+</li>
+<li><p>Click the Edit icon from the mini pop-up menu.</p></li>
+</ol>
+</div></blockquote>
+<ol class="arabic" start="3">
+<li><p>The Batch Recipe form will appear. The menu on the right-hand side of the Batch Recipe form allows you to navigate to different pages of the Batch Recipe, while the page content is situated on the left-hand side.</p>
+<blockquote>
+<div><img alt="../_images/editBatchRecipe.png" src="../_images/editBatchRecipe.png" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+<p><em>Ingredients &amp; Costing</em></p>
+<blockquote>
+<div><ol class="arabic" start="4">
+<li><p>You start on the Ingredients &amp; Costing page, which lists the following information:</p>
+<blockquote>
+<div><blockquote>
+<div><ul class="simple">
+<li><p>Ingredient name – pulled directly from Raw Material record</p></li>
+<li><p>Ingredient Yield (%) – enter how much of the ingredient ends up in the Batch Recipe</p></li>
+<li><p>Quantity – enter the quantity using the unit of measurement chosen on the Raw Materials Recipe Measurements page.</p></li>
+<li><p>If Bread is listed with a slice being 29g, then you would enter the number of slices of Bread in a single batch.</p></li>
+<li><p>If Egg is listed with a unit of 1 gram, then you would enter the number of grams of Egg in a single batch.</p></li>
+<li><p>Ingredient Percentage – automatically populated by the software by multiplying the set Quantity by the Recipe Measurements from the Raw Material entry to                     calculate the Ingredient volume, then finding the percentage of the total recipe volume.</p></li>
+<li><p>2900g of Bread (29g x 100 slices)/ 5400g * 100 = 53.70%</p></li>
+<li><p>1000g of Egg /5400g * 100 = 18.52%</p></li>
+<li><p>500g of Sandwich Shells (10g x 50 shells)/5400g = 9.26%</p></li>
+<li><p>1000g of Mayo/ 5400g = 18.52%</p></li>
+<li><p>Cost Per Ingredient – automatically populated by the software by multiplying the Ingredient Quantity by the Unit cost.</p></li>
+<li><p>If Bread costs $2.51 per 200g, then a 29g slice = $0.3639</p></li>
+</ul>
+</div></blockquote>
+<ul>
+<li><p>Therefore 100 slices of Bread = $36.39</p>
+<blockquote>
+<div><img alt="../_images/costPerIngredient.png" src="../_images/costPerIngredient.png" />
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+<p>At the bottom of the Ingredients &amp; Costing page is a Total tally of the Batch Recipe Ingredient volume and costs.</p>
+<blockquote>
+<div><img alt="../_images/batchVolumeAndCosts.png" src="../_images/batchVolumeAndCosts.png" />
+</div></blockquote>
+</div></blockquote>
+<p><em>Instructions</em></p>
+<blockquote>
+<div><ol class="arabic" start="5">
+<li><p>Add preparation Instructions by clicking the Plus button. Rearrange the Instructions order as needed using the hamburger icon. To remove a step, click the X icon.</p>
+<blockquote>
+<div><img alt="../_images/preparedInstructions.png" src="../_images/preparedInstructions.png" />
+</div></blockquote>
+</li>
+<li><p>Print Batch Recipe Instructions in PDF format by clicking on the Printer icon on the menu.</p>
+<blockquote>
+<div><img alt="../_images/printBatchRecipes.png" src="../_images/printBatchRecipes.png" />
+</div></blockquote>
+</li>
+<li><p>Save on your computer and open PDF. Print to enjoy a hard copy of the Instructions list.</p>
+<blockquote>
+<div><img alt="../_images/pdfBatch.png" src="../_images/pdfBatch.png" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+<p><em>Recipe Yield</em></p>
+<blockquote>
+<div><ol class="arabic" start="8">
+<li><p>Recipe Yield is not an individual paged. Recipe Yield is auto-calculated as a percentage once the Ingredients &amp; Costing and Batch Weight pages are filled out. No            manual entry is possible.</p>
+<blockquote>
+<div><img alt="../_images/recipeYield.png" src="../_images/recipeYield.png" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+<p><em>Batch Weight</em></p>
+<blockquote>
+<div><ol class="arabic" start="9">
+<li><p>Click Batch Weight to open a small box for entering the Total Batch Weight (once prepared) and the Units Yielded.</p>
+<blockquote>
+<div><img alt="../_images/batchWeight.png" src="../_images/batchWeight.png" />
+<ul class="simple">
+<li><p>In the Egg Sandwich example, the resulting Batch Weight is 3450g for 50 Egg Sandwiches</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Click Save, and the box closes.</p></li>
+<li><p>Recipe Yield now automatically populates by dividing the resulting Batch Weight by the initial weight of all Ingredients.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>(3450g of Egg Sandwiches / 5400g of Ingredients for Egg Sandwiches) * 100 = 64%</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+<p><em>Quality Assurance</em></p>
+<blockquote>
+<div><ol class="arabic" start="12">
+<li><p>Add Quality Assurance information by setting the QA Attribute, Data Type, and Required or Not Required. Choose from the following QA Attributes:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Consist</p></li>
+<li><p>pH</p></li>
+<li><p>Brix</p></li>
+<li><p>aW</p></li>
+<li><p>Moisture Content</p></li>
+<li><p>Sal</p></li>
+<li><p>Scoville</p></li>
+<li><p>Initial Weight</p></li>
+<li><p>Water Temperature</p></li>
+<li><p>Calibration Check</p></li>
+<li><p>Humidity</p></li>
+</ul>
+<img alt="../_images/batchQAAtt.png" src="../_images/batchQAAtt.png" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+<p><em>Shopping List</em></p>
+<blockquote>
+<div><ol class="arabic" start="13">
+<li><p>The Shopping List is created automatically by combining information from the Batch Recipe Ingredients &amp; Costing page and the Raw Material entries.</p>
+<blockquote>
+<div><img alt="../_images/shoppingList.png" src="../_images/shoppingList.png" />
+<p>Any Recipe as Ingredient items, like the Mayo, are batched separately and will show 0 Units Per Batch.</p>
+</div></blockquote>
+</li>
+<li><p>Print Batch Recipe Instructions in PDF format by clicking on the Printer icon on the menu.</p>
+<blockquote>
+<div><img alt="../_images/printBatchInstructions.png" src="../_images/printBatchInstructions.png" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+<p><em>Nutrition label</em></p>
+<blockquote>
+<div><ol class="arabic" start="15">
+<li><p>The Nutrition Label page is another pre-filled page combining the information from the Raw Material entries and Ingredients &amp; Costing page. All fields can be               edited as needed.</p>
+<blockquote>
+<div><img alt="../_images/nutritionLabelBatch.png" src="../_images/nutritionLabelBatch.png" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+<p><em>Claims</em></p>
+<blockquote>
+<div><ol class="arabic" start="16">
+<li><p>Add any Claims that apply to the entire Batch Recipe by clicking the Plus icon next to Recipe Claims. Choose from the drop-down menu of previously created                  options or enter a new Claim.</p>
+<blockquote>
+<div><img alt="../_images/claimsBatch.png" src="../_images/claimsBatch.png" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+<p><em>Recipe as Ingredient</em></p>
+<blockquote>
+<div><ol class="arabic" start="17">
+<li><p>To set a Recipe as Ingredient, meaning the Batch Recipe will be used as an Ingredient in other Batch Recipes, click the Recipe as Ingredient option on the menu.            The checkmark denotes that the Batch Recipe now has the designation of Recipe as Ingredient. Select Also Sold Item if the Batch Recipe is also sold on the Menu                 as an individual item.  Set the Recipe Measurement.</p>
+<blockquote>
+<div><img alt="../_images/setBatchRecipeAsIngredient.png" src="../_images/setBatchRecipeAsIngredient.png" />
+</div></blockquote>
+</li>
+<li><p>To remove Recipe as Ingredient from a Batch Recipe, click on the checkmark, then click OK on the confirmation message.</p></li>
+</ol>
+</div></blockquote>
+<p><em>Add Lab Analysis</em></p>
+<blockquote>
+<div><ol class="arabic" start="19">
+<li><p>Drag or Drop one or more files onto the gray area to Upload a Batch Recipe Lab Analysis. Or click the gray area to open your folders so you can navigate to the         Lab Analysis.</p>
+<blockquote>
+<div><img alt="../_images/labAnalysisBatch.png" src="../_images/labAnalysisBatch.png" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+<p><em>Expiration</em></p>
+<blockquote>
+<div><ol class="arabic" start="20">
+<li><p>Expiration does not have its own discrete page. It is listed in line with the rest of the Batch Material menu. To add Expiration information, simply add the shelf life in Days and/or Years.</p>
+<blockquote>
+<div><img alt="../_images/expDateBatch.png" src="../_images/expDateBatch.png" />
+</div></blockquote>
+</li>
+<li><p>You have now finished editing an existing (or newly created) Batch Recipe. Review each page and then click Save.</p></li>
+</ol>
+</div></blockquote>
+<p><em>How to Print a Batch Recipe</em></p>
+<blockquote>
+<div><ol class="arabic">
+<li><p>Hover over the Batch Recipe to be printed and click on the Printer icon.</p>
+<blockquote>
+<div><img alt="../_images/printBatchRecipe.png" src="../_images/printBatchRecipe.png" />
+</div></blockquote>
+</li>
+<li><p>Save the Batch Recipe PDF. The overall Batch Recipe PDF contains the Batch Recipe Ingredients &amp; Costing information, the list of Instructions, and the Expected              Weight and Expected Yield.</p>
+<blockquote>
+<div><img alt="../_images/saveBatchToPDF.png" src="../_images/saveBatchToPDF.png" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
 </section>
 
 
@@ -87,6 +323,7 @@
 <li class="toctree-l1"><a class="reference internal" href="crm.html">2. CRM</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="crm.html#contacts">2.1. Contacts</a></li>
 <li class="toctree-l2"><a class="reference internal" href="crm.html#retailers">2.2. Retailers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="crm.html#customers-suppliers">2.3. Customers &amp; Suppliers</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="ingredients.html">3. Raw Materials</a></li>
