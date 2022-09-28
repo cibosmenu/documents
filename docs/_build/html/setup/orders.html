@@ -50,6 +50,219 @@
           
   <section id="orders">
 <h1><span class="section-number">6. </span>Orders<a class="headerlink" href="#orders" title="Permalink to this heading">¶</a></h1>
+<p>The Orders page in Cibos is separated into three essential groupings: Orders, Manufacturing Orders, and Fulfillment Status. Manufacturing Orders are separated from the other Order types because of a different workflow. Order types include Sales Order, Purchase Order, Credit Memo, Trade &amp; Marketing Expense, and Lab Order. Manufacturing Orders are further separated into five stages to track Manufacturing Orders as they move through the stages of Open, Prepping, Processing, Storage, and Packaged. Fulfillment Status is used for tracking orders that are Shipped, Received, Invoiced/Billed, or Paid.</p>
+<img alt="../_images/orders.png" src="../_images/orders.png" />
+<section id="id1">
+<h2><span class="section-number">6.1. </span>Orders<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h2>
+<p>Order types include Sales Order, Purchase Order, Credit Memo, Trade &amp; Marketing Expense, and Lab Order. Use the Search function to narrow down a long list of Orders using Order # or Vendor and find a specific Order. On the Orders header, you can also quickly see how many Orders are on your list. Filter Orders by Supplier, Buyer, Open, and Sent by clicking the Filter icon.</p>
+<img alt="../_images/Order.png" src="../_images/Order.png" />
+<p><em>How to Add a New Order</em></p>
+<blockquote>
+<div><ol class="arabic">
+<li><p>Click the Plus icon on the Orders header to add a new Order to your Orders list.</p>
+<blockquote>
+<div><img alt="../_images/addNewOrder.png" src="../_images/addNewOrder.png" />
+</div></blockquote>
+</li>
+<li><p>A New Order Type form will appear. Select the appropriate order type: Sales Order, Purchase Order, Credit Memo, Trade &amp; Marketing Expense, and Lab      Order. Then click Next.</p>
+<blockquote>
+<div><img alt="../_images/newOrderType.png" src="../_images/newOrderType.png" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</section>
+<section id="sales-order">
+<h2><span class="section-number">6.2. </span>Sales Order<a class="headerlink" href="#sales-order" title="Permalink to this heading">¶</a></h2>
+<p>The menu on the right-hand side of the Add Order form allows you to navigate to different pages of the Order form, while the page content is situated on the left-hand side.</p>
+<blockquote>
+<div><img alt="../_images/addOrder.png" src="../_images/addOrder.png" />
+</div></blockquote>
+<p><em>Order</em></p>
+<blockquote>
+<div><ol class="arabic">
+<li><p>Start on the Order page, where you can add the following information:</p>
+<blockquote>
+<div><blockquote>
+<div><ul>
+<li><p>Buyer – enter the Buyer Name, StoreID, or Store#. The dropdown menu is populated from your Vendors and Store lists</p>
+<img alt="../_images/buyerOrder.png" src="../_images/buyerOrder.png" />
+</li>
+</ul>
+</div></blockquote>
+<ul>
+<li><p>Ship To – select the Ship to address is different from buyer address as needed, then enter the shipping address in the Ship To field</p>
+<blockquote>
+<div><img alt="../_images/shipToOrder.png" src="../_images/shipToOrder.png" />
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<ul>
+<li><p>Ship From – enter the Manufacturer/Supplier Name, StoreID, or Store#. The dropdown menu is populated from your Manufacturers and Suppliers                                 lists.</p>
+<blockquote>
+<div><img alt="../_images/shipFromOrder.png" src="../_images/shipFromOrder.png" />
+</div></blockquote>
+</li>
+<li><p>Requested Dates – set the requested Ship By and Deliver By dates using the pop-out calendar or entering them manually.</p>
+<blockquote>
+<div><img alt="../_images/RequestedDates.png" src="../_images/RequestedDates.png" />
+</div></blockquote>
+</li>
+</ul>
+<blockquote>
+<div><ul>
+<li><p>Term – Select the Term from 15, 30, or Prepaid</p>
+<blockquote>
+<div><img alt="../_images/termOrder.png" src="../_images/termOrder.png" />
+</div></blockquote>
+</li>
+<li><p>Items – Add Packages by clicking the Plus icon based on the selected Buyer. The Cost/UOM will auto-populate, and you can set the desired                          quantity (QTY). The Total cost for a Package is also listed. Click the green check to save the Item.</p>
+<blockquote>
+<div><img alt="../_images/addPackageOrder.png" src="../_images/addPackageOrder.png" />
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Once an Item is added, the Order page expands to include a new section displaying the Order’s Total Weight and Total Qty.</p>
+<blockquote>
+<div><img alt="../_images/totalWeightOrder.png" src="../_images/totalWeightOrder.png" />
+</div></blockquote>
+</li>
+<li><p>If you’d like to add an Allowance/Discount, choose from the following options: Discount, Freight Allowance, Marketing Allowance, or Spoils                           Allowance.      Then set it as either a % or $ Allowance/Discount and click the Plus icon to add.</p></li>
+<li><p>You can also set the Shipping Cost.</p>
+<blockquote>
+<div><img alt="../_images/discountOrder.png" src="../_images/discountOrder.png" />
+</div></blockquote>
+</li>
+<li><p>Finally, add Comments &amp; References by choosing a subject, General, External Order Number, or Link and writing a comment in the text box. Then click Save.</p>
+<blockquote>
+<div><img alt="../_images/commentsAndReferences.png" src="../_images/commentsAndReferences.png" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+<p><em>Assign</em></p>
+<blockquote>
+<div><ol class="arabic" start="6">
+<li><p>Before you can Assign a User, a Mobile Work Order User must be added from the Collaboration page. Then click Assign in the menu and select the preferred User from the drop-down menu</p>
+<blockquote>
+<div><img alt="../_images/assignOrder.png" src="../_images/assignOrder.png" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+<p><em>Contacts</em></p>
+<blockquote>
+<div><ol class="arabic" start="7">
+<li><p>The Contacts page displays a list of Contacts pulled from your CRM records based on the Buyer and Manufacturer/Supplier picked on the Order page. This is a quick and efficient way to know who to contact concerning specific orders.</p>
+<blockquote>
+<div><img alt="../_images/contactsOrder.png" src="../_images/contactsOrder.png" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+<p><em>Logistics</em></p>
+<blockquote>
+<div><ol class="arabic" start="8">
+<li><p>The Logistics page lists any Customers &amp; Suppliers from the CRM that are denoted as the Logistics type. You can instantly view the Vendor Name, Rate, Email, and Phone Number.</p>
+<blockquote>
+<div><img alt="../_images/logisticsOrder.png" src="../_images/logisticsOrder.png" />
+</div></blockquote>
+</li>
+<li><p>Click the checkbox to select the preferred Vendor, and a set of new options appears. Now you can add the following Logistics information:</p>
+<blockquote>
+<div><blockquote>
+<div><blockquote>
+<div><ul class="simple">
+<li><p>Logistics Cost</p></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li><p>Total Weight</p></li>
+<li><p>Handling Unit Type</p></li>
+<li><p>Total Handling Units</p></li>
+<li><p>NMFC Designation</p></li>
+<li><p>Delivery Notes</p></li>
+<li><p>Note</p></li>
+</ul>
+</div></blockquote>
+<img alt="../_images/checkBoxOrder.png" src="../_images/checkBoxOrder.png" />
+</div></blockquote>
+</li>
+<li><p>When the Logistics information is completed, you can click the Download or Send buttons under the Action heading.</p>
+<blockquote>
+<div><img alt="../_images/actionHeadingOrder.png" src="../_images/actionHeadingOrder.png" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+<p><em>Send</em></p>
+<blockquote>
+<div><ol class="arabic" start="11">
+<li><p>You can Send a copy of the Order to the Buyer and/or Manufacturer/Supplier from the Send page.</p>
+<blockquote>
+<div><img alt="../_images/sendOrder.png" src="../_images/sendOrder.png" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+<p><em>Download</em></p>
+<blockquote>
+<div><ol class="arabic" start="12">
+<li><p>From the menu, click the Printer icon to Download a copy of the Sales Order as a PDF file. Click the Document icon to Download a copy of the Sales      Order as an edi file.</p>
+<blockquote>
+<div><img alt="../_images/downloadOrder.png" src="../_images/downloadOrder.png" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+<p><em>Batch Numbers</em></p>
+<blockquote>
+<div><ol class="arabic" start="13">
+<li><p>Add Batch Numbers by selecting Items from the drop-down menu. Then click Add.</p>
+<blockquote>
+<div><img alt="../_images/batchNumbersOrder.png" src="../_images/batchNumbersOrder.png" />
+</div></blockquote>
+</li>
+<li><p>Adjust Qty Picked/Pack and click the green checkmark to Save the selected Item.</p>
+<blockquote>
+<div><img alt="../_images/greenCheckMarkOrder.png" src="../_images/greenCheckMarkOrder.png" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+<p><em>Status</em></p>
+<blockquote>
+<div><ol class="arabic" start="15">
+<li><p>Set the Sales Order Status by clicking Status in the menu and selecting one of the options in the drop-down menu: Open, Shipped, Received, Invoiced, Billed, Completed, and Paid. This also moves Orders into the different Fulfillment Status categories.</p>
+<blockquote>
+<div><img alt="../_images/statusOrder.png" src="../_images/statusOrder.png" />
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+<p><em>Archive</em></p>
+<blockquote>
+<div><ol class="arabic" start="16">
+<li><p>Once a Sales Order Status has been set to Paid, hover over the Order and click the Edit button.</p>
+<blockquote>
+<div><img alt="../_images/archiveOrderStatus.png" src="../_images/archiveOrderStatus.png" />
+</div></blockquote>
+</li>
+<li><p>Under Status, find and click Archive. Click OK to confirm you wish to Archive this Order.</p>
+<blockquote>
+<div><img alt="../_images/okToArchiveOrder.png" src="../_images/okToArchiveOrder.png" />
+</div></blockquote>
+</li>
+<li><p>You have now finished editing an Order through its full lifecycle from Open to Paid and finally Archived.</p></li>
+</ol>
+</div></blockquote>
+</section>
+<section id="purchase-order">
+<h2><span class="section-number">6.3. </span>Purchase Order<a class="headerlink" href="#purchase-order" title="Permalink to this heading">¶</a></h2>
+</section>
 </section>
 
 
@@ -79,12 +292,24 @@
 <li class="toctree-l1"><a class="reference internal" href="crm.html">2. CRM</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="crm.html#contacts">2.1. Contacts</a></li>
 <li class="toctree-l2"><a class="reference internal" href="crm.html#retailers">2.2. Retailers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="crm.html#customers-suppliers">2.3. Customers &amp; Suppliers</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="ingredients.html">3. Raw Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="batchrecipes.html">4. Batch Recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="menus.html">5. Menus</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">6. Orders</a></li>
+<li class="toctree-l1"><a class="reference internal" href="menus.html">5. Menus</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="menus.html#items">5.1. Items</a></li>
+<li class="toctree-l2"><a class="reference internal" href="menus.html#headings">5.2. Headings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="menus.html#packages">5.3. Packages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="menus.html#publishing-a-menu">5.4. Publishing a Menu</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">6. Orders</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1">6.1. Orders</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sales-order">6.2. Sales Order</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#purchase-order">6.3. Purchase Order</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="inventory.html">7. Inventory</a></li>
 <li class="toctree-l1"><a class="reference internal" href="archive-trace.html">8. Archive &amp; Trace</a></li>
 <li class="toctree-l1"><a class="reference internal" href="calendar.html">9. Calendar</a></li>
