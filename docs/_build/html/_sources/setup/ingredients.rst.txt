@@ -5,7 +5,8 @@ Raw Materials
 Raw Materials are the lowest level of ingredients you use to build out your Batch Recipes. Cibos supports ‘recipe as ingredient’ functionality where an entry can be listed as both a Raw Material and Batch Recipe. Use the Search function to narrow down a long list of Raw Materials and find a specific Raw Material. On the Raw Materials header, you can also quickly see how many Raw Materials are on your list. For example, the Raw Materials list below has seven entries:
 
 .. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/rawMaterials.png
-
+|
+|
 *How to Add a New Raw Material*
 
 	1. Click the **Plus** icon on the Raw Materials header to add a new Raw Material to your Raw Material list.
@@ -15,7 +16,8 @@ Raw Materials are the lowest level of ingredients you use to build out your Batc
 	2. An **Add Ingredient** form will appear. The menu on the right-hand side of the Add Ingredient form allows you to navigate to different pages of the Ingredient form, while the page content is situated to the left-hand side. 
 
 		.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/addIngredient.png
-
+|
+|
 *Details*
 
 	3. You start on the **Details** page, where you can enter the following information:
@@ -57,6 +59,7 @@ Raw Materials are the lowest level of ingredients you use to build out your Batc
 
 
 |
+|
 *Recipe Measurements*
 
 	6. From the **Recipe Measurements** page, you can choose what measurements you want to support for your Recipes. If the Raw Material is solid you can choose from these options:
@@ -72,7 +75,7 @@ Raw Materials are the lowest level of ingredients you use to build out your Batc
 		
 		.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/multipleMeasurementsTypes.png
 
-
+|
 |
 *Package Level*
 
@@ -94,7 +97,7 @@ Raw Materials are the lowest level of ingredients you use to build out your Batc
 
 		.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/costField.png
 
-
+|
 |
 *Nutrition*
 
@@ -107,7 +110,7 @@ Raw Materials are the lowest level of ingredients you use to build out your Batc
 		.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/printNutritionFacts.png
 
 		
-
+|
 |
 *Claims*
 
@@ -120,7 +123,7 @@ Raw Materials are the lowest level of ingredients you use to build out your Batc
 
 		You can enter a new custom Ingredient Claim or select from previously used claims.
 
-
+|
 |
 *Upload Spec Sheet*
 
@@ -135,7 +138,7 @@ Raw Materials are the lowest level of ingredients you use to build out your Batc
 
 
 		.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/deleteSpecSheet.png
-		
+|		
 |
 *Expiration*
 
@@ -146,7 +149,7 @@ Raw Materials are the lowest level of ingredients you use to build out your Batc
 
 
 	16. You have now finished adding a new Raw Material. Review each page and then click **Save**.
-
+|
 |
 *How to Edit an Existing Raw Material*
 	

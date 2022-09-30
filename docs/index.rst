@@ -64,6 +64,7 @@ Why CIBOS?
    analytics/freightcost
    analytics/landedcost
    analytics/cogs
+   analytics/depletion
 
 .. _toc.orders
 

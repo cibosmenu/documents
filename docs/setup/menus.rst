@@ -7,7 +7,8 @@ Within Cibos, Menus are built from **Items (Batch Recipes)** and **Headings**. M
 	
 	.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/menu.png
 
-
+|
+|
 -------
 Items
 -------
@@ -16,6 +17,7 @@ Menu **Items** are pulled directly from the **Batch Recipes** created on the **R
 
 **NOTE**: To create a new **Item**, it must first be built from Raw Materials into a Batch Recipe. Items cannot be created on the Menu page.
 	
+|
 |
 *Edit Menu Items*
 
@@ -36,7 +38,7 @@ Menu **Items** are pulled directly from the **Batch Recipes** created on the **R
 	     .. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/addItemMenu.png
 	
 	5. Click **Save** when you’ve finished making changes.
-
+|
 |
 -------
 Headings
@@ -46,7 +48,7 @@ Headings
 
 .. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/Heading.png
 
-
+|
 |
 *Create a New Heading*
 
@@ -58,7 +60,7 @@ Headings
 	  2. On the **Add** **Heading** form, choose a **Name** and a Description for the Heading. Add an Image if desired. Then click **Save**.
 
 		.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/addHeadingForm.png 
-
+|
 |
 *Add a Divider*
 
@@ -73,7 +75,7 @@ Headings
 
 	     3. This divider can be replaced with another Item if you are having issues dragging and dropping Items without an error. Create the divider and then drag and drop the Item onto the divider. 
 
-
+|
 |
 -------
 Packages
@@ -84,8 +86,8 @@ Packages
 .. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/packages.png
 
 
-
-
+|
+|
 *How to Create a Package: Consumer Package Goods*
 
 		1. Click the **Plus** **icon** next to the **Packages** title
@@ -113,7 +115,7 @@ Packages
 
 		4. Then click **Add** and **Save**. 
 
-
+|
 |
 *How to Create a Package: Catering Package*
 	
@@ -134,7 +136,7 @@ Packages
 			- **Minimum People** 
 
 			.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/editCateringPackageFix.png
-
+|
 |
 Publishing a Menu
 -------	
@@ -144,7 +146,8 @@ Once all of the Items, Headings, and Packages are created on the Menu page, you 
 
 .. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/publishingAMenu.png
 
-
+|
+|
 *Menu Options*
 
 

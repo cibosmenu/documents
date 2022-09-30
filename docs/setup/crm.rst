@@ -7,7 +7,8 @@ CRM stands for Customer Relations Management. Cibos Menu’s CRM separates your 
 
 .. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/CRM.png
   
-  
+|
+|
 ------------
 Contacts
 ------------
@@ -16,6 +17,7 @@ Contacts displays a list of your company’s Contacts with individuals. You can 
 .. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/Contacts.png
   :width: 500
 
+|
 |
 *How to Add a New Contact*
 
@@ -49,7 +51,8 @@ Contacts displays a list of your company’s Contacts with individuals. You can 
 	.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/notesContact.png
 4. When you are done adding information to the New Contact form, click **Save**. 
 
-
+|
+|
 *How to Edit an Existing Contact*
 
 1. To edit an existing Contact, hover over a name in the Contacts list.
@@ -64,7 +67,8 @@ Contacts displays a list of your company’s Contacts with individuals. You can 
 	
 4. Click **Save** when you are finished editing the contact.
 
-
+|
+|
 *How To Show/Hide a Contact*
 
 	1. To Hide an existing contact, hover over a name in the contact list.
@@ -78,6 +82,7 @@ Contacts displays a list of your company’s Contacts with individuals. You can 
   	  	.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/hideShow.png
 
 |
+|
 *How To Delete a Contact*
 
 	1. To Delete an existing contact, hover over a name in the contact list.
@@ -88,8 +93,8 @@ Contacts displays a list of your company’s Contacts with individuals. You can 
 	2. Click the **Delete** icon from the mini pop-up menu. 
 	3. You will then be asked, ‘**Are you sure you want to completely remove this contact?**’ Click **OK** to proceed. 
 
-
-
+|
+|
 ------------
 Retailers
 ------------
@@ -99,6 +104,7 @@ Retailers display a list of your company’s contacts with Retailers. You can vi
 		.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/Retailers.png
 
 
+|
 |	
 *How to Add a New Retailer*
 
@@ -134,6 +140,7 @@ Retailers display a list of your company’s contacts with Retailers. You can vi
 
 
 |
+|
 *How to Edit an Existing Retailer Record* 
 
 1. To edit an existing Retailer Record, follow the same workflow outlined for editing an existing contact.
@@ -157,6 +164,7 @@ You can integrate your Contacts list and Retailers list, allowing you to add Con
 		.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/placeContact.png
 
 |
+|
 *How to Delete Contacts from a Retailer*
 
 	1. Click to expand the Retailer’s sub-list and hover over the Contact you want to remove. Click the X icon to remove a Contact.
@@ -169,6 +177,7 @@ You can integrate your Contacts list and Retailers list, allowing you to add Con
 
 			.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/addContactAsRetailer.png
 |
+|
 ------------
 Customers & Suppliers
 ------------
@@ -177,7 +186,8 @@ Customers & Suppliers offers a higher-level way to organize your CRM as your Con
 
 .. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/customersAndSuppliers.png
 
-
+|
+|
 *How to Add a New Customer or Supplier*
 
 	1. Click the **Plus** icon on the **Customers & Suppliers** header to add a new contact to your Customers & Suppliers list.
@@ -187,27 +197,29 @@ Customers & Suppliers offers a higher-level way to organize your CRM as your Con
 	2. A New Customer/Supplier Record will appear. You can enter the following information:
 	
 	
-	- **Logo** – click the **Profile icon** to upload a **Logo**
-	- **Name** – required
-	- **Telephone** – required
-	- **Extension** #	
-	- **Additional** # – set the **Type** from the drop-down menu, enter the phone number and any extension, and then click **Add**
-	- **Vendor ID**
-	- **Customer** #
-	- **Address** – required
-	- **City**– required
-	- **State/ Province Abbrv.** – required
-	- **Zip** – required
-	- **URL** 
-	- **Type** – Choose from **Supplier**, **Manufacturer**, **Distributor**, **Broker**, **Logistics**, **Brand Owner**, **Trade** and **Marketing**, and **Lab**
-	- **Orders Email** – required
-	- **Term** – choose the agreed **Term**; will then auto-populate when creating an Order with this Customer/Supplier
-	- **Note** – enter a note into the text box and then click **Add**
+		- **Logo** – click the **Profile icon** to upload a **Logo**
+		- **Name** – required
+		- **Telephone** – required
+		- **Extension #**	
+		- **Additional #** – set the **Type** from the drop-down menu, enter the phone number and any extension, and then click **Add**
+		- **Vendor ID**
+		- **Customer #**
+		- **Address** – required
+		- **City**– required
+		- **State/ Province Abbrv.** – required
+		- **Zip** – required
+		- **URL** 
+		- **Type** – Choose from **Supplier**, **Manufacturer**, **Distributor**, **Broker**, **Logistics**, **Brand Owner**, **Trade** and 					**Marketing**, and **Lab**
+		- **Orders Email** – required
+		- **Term** – choose the agreed **Term**; will then auto-populate when creating an Order with this Customer/Supplier
+		- **Note** – enter a note into the text box and then click **Add**
 	
 
 	.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/newCustomerSupplierRecord.png
 
-**Manufacturer**
+|
+|
+*Manufacturer*
 
 		3. When creating a New Customer/Supplier Record, if you choose the **Manufacturer Type**, the record expands to add the following fields:
 			
@@ -221,6 +233,8 @@ Customers & Suppliers offers a higher-level way to organize your CRM as your Con
 
 			- **NOTE**: The Fee auto-populates when creating an Order with this Manufacturer. When creating a new Bin Location in Inventory, choose the Manufacturer and then specify any Internal Location you’ve added in the CRM for this Manufacturer.
 
+|
+|
 *Logistics*
 
 		4. When creating a New Customer/Supplier Record, if you choose the **Logistics Type**, the record expands to add the following fields:
@@ -235,6 +249,7 @@ Customers & Suppliers offers a higher-level way to organize your CRM as your Con
 
 
 |
+|
 *How to Edit an existing Customer/Supplier Record*
 
 		2. To edit an existing **Customer/Supplier Record**, follow the same workflow outlined in editing an existing record.
@@ -242,12 +257,14 @@ Customers & Suppliers offers a higher-level way to organize your CRM as your Con
 			.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/editCustomerAndSuppliers.png
 
 |
+|
 *How to Add Contacts or Retailers to a *Customer/Supplier*
 
 		1. To add a Contact or Retailer to a **Customer/Supplier**, follow the same workflow outlined in adding contacts to a retailer
 
 			.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/addContactsRetailersToACutomer.png
 
+|
 |
 *How to Delete Contacts from a Customer/Supplier* 
 
