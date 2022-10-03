@@ -51,9 +51,9 @@ rst_epilog = "\n.. include:: .special.rst\n"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-html_logo = '_static/logo_name_for_ipad.svg'
+#html_logo = '_static/logo_name_for_ipad.svg'
+html_logo = '_static\CIBOS_Name.png'
 html_favicon = '_static/favicon.ico'
-
 html_css_files = [
     '_static/custom.css',
 ]
