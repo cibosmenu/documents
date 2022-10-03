@@ -132,7 +132,7 @@ Retailers display a list of your company’s contacts with Retailers. You can vi
 		
 		.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/newRetailer.png
 
-5. When you add a **Note, it will appear directly below the main retailer form. The Note will have a **date and timestamp** as well as an **Edit** and **Delete** option.
+5. When you add a **Note, it will appear directly below the main retailer form. The Note will have a date and timestamp** as well as an **Edit** and **Delete** option.
 
 		
 		.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/note.png
@@ -147,6 +147,8 @@ Retailers display a list of your company’s contacts with Retailers. You can vi
 	
 	.. image:: C:/Users/filip/Desktop/CibosMenu/docs/setup/editRetailer.png
 
+|
+|
 *How to Add Contacts to a Retailer*
 
 You can integrate your Contacts list and Retailers list, allowing you to add Contacts to specific Retailers. This helps you easily track and organize your network of Contacts and Retailers, so you know who is associated with which retailer. Contacts can be assigned to multiple Retailers. For example, the Red Apron Butcher retailer below has Anthony Bourdain listed on their staff:
@@ -258,7 +260,7 @@ Customers & Suppliers offers a higher-level way to organize your CRM as your Con
 
 |
 |
-*How to Add Contacts or Retailers to a *Customer/Supplier*
+*How to Add Contacts or Retailers to a Customer/Supplier*
 
 		1. To add a Contact or Retailer to a **Customer/Supplier**, follow the same workflow outlined in adding contacts to a retailer
 
